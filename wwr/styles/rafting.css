@@ -21,12 +21,39 @@ body {
     max-width: 960px;
     padding: 20px;
     text-decoration: none; 
+    margin: auto;
 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
 }
 
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
-    text-decoration: none; 
 }
 
 nav a:hover {
@@ -34,25 +61,29 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-.hero{
-    position: relative;
+nav.sociallinks {
+    text-decoration: none;
 }
 
-.hero img{
-    position: absolute;
-    width: 300px; 
-}
 
-.hero h1, article{
+
+article{
     position: absolute;
-    background-color: var(--secondary-color);
+    background-color:#52796F;
     opacity: 50;
 }
-
-.hero article img{
+article img{
     float: right;
 }
 
+div.hero {
+    position: relative;
+    background-image: url('images/hero2.jpg');
+    margin: auto;
+    max-width: 960px;
+    padding: 20px;
+    
+}
 
 
 
