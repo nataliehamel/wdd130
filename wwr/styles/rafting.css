@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+:root {
+    --primary-color: #52796F;
+    --secondary-color: #CAD2C5;
+    --accent1-color: #2F3E46;
+    --accent2-color: #84A98C;
+    --accent3-color: #354F52;
+  
+    --heading-font: 'Rock Salt', serif;
+    --paragraph-font: 'Heebo', sans-serif;
+  
+    --nav-background-color: #CAD2C5;
+    --nav-link-color: #2F3E46;
+    --nav-hover-link-color: #84A98C;
+    --nav-hover-background-color: #354F52;
+  }
+
+body {
+    max-width: 960px;
+    padding: 20px;
+    text-decoration: none; 
+
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+    text-decoration: none; 
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.hero{
+    position: relative;
+}
+
+.hero img{
+    position: absolute;
+    width: 300px; 
+}
+
+.hero h1, article{
+    position: absolute;
+    background-color: var(--secondary-color);
+    opacity: 50;
+}
+
+.hero article img{
+    float: right;
+}
+
+
+
+
