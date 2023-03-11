@@ -74,6 +74,7 @@ h1{
     background-color: #CAD2C5;
     opacity: 1;
 }
+
 article{
     position: absolute;
     top: 150px;
@@ -85,15 +86,12 @@ article{
     opacity: 5;
 }
 
-
 article img{
     float: right;
     max-width:200px;
     max-height: auto;
     padding: 10px;
 }
-
-
 
 img {
     max-width: 100%;
