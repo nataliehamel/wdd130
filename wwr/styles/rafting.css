@@ -65,25 +65,40 @@ nav.sociallinks {
     text-decoration: none;
 }
 
-
-
+h1{
+    position: absolute;
+    top: 50px;
+    right: 250px;
+    margin: auto;
+    padding: 10px;
+    background-color: #CAD2C5;
+}
 article{
     position: absolute;
-    background-color:#52796F;
-    opacity: 50;
+    top: 150px;
+    right: 80px;
+    left: 80px;
+    color: #CAD2C5;
+    background:#52796F;
+    padding: 5px;
 }
+
+
 article img{
     float: right;
+    max-width:200px;
+    max-height: auto;
+    padding: 10px;
+}
+
+
+
+img {
+    max-width: 100%;
 }
 
 div.hero {
     position: relative;
     background-image: url('images/hero2.jpg');
-    margin: auto;
-    max-width: 960px;
-    padding: 20px;
-    
+    padding: 20px;   
 }
-
-
-
