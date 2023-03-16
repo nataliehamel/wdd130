@@ -38,8 +38,8 @@ header {
     display: grid;
     grid-template-columns: repeat(5, 9fr);
     column-gap: 20px;
-    grid-column-start: 1fr;
-    grid-column-end: 9fr;
+    grid-column-start: 1;
+    grid-column-end: 9;
 }
 
 
@@ -103,7 +103,6 @@ article{
 article img{
     float: right;
     max-width:200px;
-    max-height: auto;
     padding: 10px;
 }
 
