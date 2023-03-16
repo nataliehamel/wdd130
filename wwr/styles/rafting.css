@@ -11,10 +11,10 @@
     --heading-font: 'Rock Salt', serif;
     --paragraph-font: 'Heebo', sans-serif;
   
-    --nav-background-color: #CAD2C5;
-    --nav-link-color: #2F3E46;
+    --nav-background-color: #2F3E46;
+    --nav-link-color: #CAD2C5;
     --nav-hover-link-color: #84A98C;
-    --nav-hover-background-color: #354F52;
+    --nav-hover-background-color: #52796F;
   }
 
 body {
@@ -22,27 +22,39 @@ body {
     padding: 20px;
     text-decoration: none; 
     margin: auto;
+    background-color: #CAD2C5;
 
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    display:flex;
+    justify-content: center;
 }
 
 header {
     padding: 20px;
-    background-color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: repeat(5, 9fr);
+    column-gap: 20px;
+    grid-column-start: 1fr;
+    grid-column-end: 9fr;
 }
+
 
 p {
     padding: 25px;
+    text-decoration: none;
+    font-size: 1.2rem;
 }
 
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    align-items: center;
+
 }
 
 nav a {
@@ -63,15 +75,17 @@ nav a:hover {
 
 nav.sociallinks {
     text-decoration: none;
+    display:flex;
+    justify-content: center;
 }
 
 h1{
     position: absolute;
     top: 50px;
-    right: 250px;
+    right: 300px;
     margin: auto;
-    padding: 10px;
-    background-color: #CAD2C5;
+    padding: 2px;
+    background-color:#CAD2C5;
     opacity: 1;
 }
 
@@ -101,4 +115,29 @@ div.hero {
     position: relative;
     background-image: url('images/hero2.jpg');
     padding: 20px;   
+}
+
+
+.history {
+    background-color:#84A98C;
+    display:flex;
+    justify-items: center;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+
+.gallery {
+    display:flex;
+    justify-items: center;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    
+}
+
+footer {
+    display:grid;
+    grid-template-columns: repeat(2, 9fr);
+    column-gap: 20px;
+    background-color: var(--nav-background-color);
+    color: #CAD2C5;
 }
