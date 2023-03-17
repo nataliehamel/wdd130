@@ -127,10 +127,8 @@ div.hero {
 
 .gallery {
     display:flex;
-    justify-items: center;
+    justify-items: space-evenly;
     flex-flow: row nowrap;
-    justify-content: space-between;
-    
 }
 
 footer {
