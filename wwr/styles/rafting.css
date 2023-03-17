@@ -127,7 +127,7 @@ div.hero {
 
 .gallery {
     display:flex;
-    justify-items: space-evenly;
+    justify-content: space-evenly;
     flex-flow: row nowrap;
 }
 
