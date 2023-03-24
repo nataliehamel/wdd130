@@ -214,6 +214,10 @@ input[type="checkbox"] {
     display:flex;
 }
 
+.radio{
+    display:flex;
+}
+
 .employees {
     display:flex;
     justify-content: space-evenly;

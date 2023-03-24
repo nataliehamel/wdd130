@@ -21,7 +21,7 @@
     </header>
     <main>
         <div class="contact-info">
-            <h1 class="contact">Contact Us</h2>
+            <h1 class="contact">Contact Us</h1>
         <div class="info">
             <div>
                 <p>Address: 12447 W Little John Dr, Houston, AK 99567</p>
@@ -40,13 +40,16 @@
                 <label>Email:</label>
                 <input type="email" id="useremail" name="useremail">
                 <label>What is the purpose of this message?</label>
-                <select id="purpose" name="purpose">
-                    <option value="" selected disabled>Choose One ...</option>
-                    <option value="option 1">General Inquiry</option>
-                    <option value="option 2">Reservation Question</option>
-                    <option value="option 3">Website Suggestion</option>
-                    <option value="option 4">Other</option>
-                </select>
+                <div class="radio">
+                    <input type="radio" id="purpose1" name="purpose1" value="General Inquiry">
+                    <label>General Inquiry</label>
+              
+                    <input type="radio" id="purpose2" name="purpose2" value="Reservation Question">
+                    <label>Reservation Question</label>
+              
+                    <input type="radio" id="purpose3" name="purpose3" value="Website Suggestion">
+                    <label>Website Suggestion</label>
+                </div>
                 <label>Message:</label>
                 <textarea id="message" name="message" rows="4" placeholder="enter message here"></textarea>
                 <div class="check">
