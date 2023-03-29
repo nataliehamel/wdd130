@@ -269,3 +269,12 @@ table {
     width: 10%;
     height: 70%;
 }
+
+.purpose_offer {
+    background-color:#CAD2C5;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
+    padding: 10px;
+}
+
