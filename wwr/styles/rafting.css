@@ -256,9 +256,6 @@ table {
     padding: 20px;
 }
 
-.table {
-    text-decoration-color: #2F3E46;
-}
 
 .check_out {
     width: 100%; 
@@ -266,4 +263,9 @@ table {
 
 .contact_us_button {
     width: 100%;
+}
+
+.wireframe {
+    width: 10%;
+    height: 70%;
 }
