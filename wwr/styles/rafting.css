@@ -231,3 +231,39 @@ figcaption {
     text-align: center;
     font-size:large;
 }
+
+.call_to_action {
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+}
+
+.trip_pics {
+    background-color:#CAD2C5;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+    padding: 10px;
+}
+
+table, th, td {
+    border: 1px solid;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    padding: 20px;
+}
+
+.table {
+    text-decoration-color: #2F3E46;
+}
+
+.check_out {
+    width: 100%; 
+}
+
+.contact_us_button {
+    width: 100%;
+}
